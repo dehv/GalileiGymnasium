@@ -1,3 +1,7 @@
-.video {
+.main {
   padding-top: 100vh;
+}
+
+.main h2 {
+  color:white;
 }
