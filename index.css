@@ -7,3 +7,20 @@ h2 {
 .main {
 
 }
+
+.pinned {
+    width: 100%;
+    height: 50vh;
+    background-color: aquamarine;
+}
+
+.posts {
+    width: 100%;
+    height: 200vh;
+}
+
+.sidebar {
+    float:right;
+    padding: 0 0 200% 400px;
+    background-color: red;
+}
