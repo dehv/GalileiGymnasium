@@ -30,6 +30,36 @@ h2 {
     height: 100vh;
 }
 
+.navbar-default{
+  font-size: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.navbar-default .navbar-brand{
+  font-size: 3vh;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.navbar-default img {
+  max-height: 40px;
+  min-height: 40px;
+  max-width: 40px;
+  min-width: 40px;
+  
+}
+.navbar-default .navbar-nav>li>a  {
+  color: white;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #d9d9d9;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:hover {
+  color: #d9d9d9;
+}
+
 .navbar-fixed-top {
     background-color: rgba(0, 0, 0, 0.2);
     border-bottom: 0;
