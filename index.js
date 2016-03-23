@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $(window).scroll(function() {
-    if ($(".navbar").offset().top > 850) {
+    if ($(".navbar").offset().top > $(window).height()) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");

@@ -49,6 +49,17 @@ h2 {
 
 }
 
+.navbar-collapse {
+  text-align: center;
+}
+
+.nav {
+  display:inline-block;
+    float: none;
+}
+.nav li {
+  align-content: center;
+}
 .navbar-default .navbar-nav>li>a  {
   color: white;
 }
@@ -61,10 +72,13 @@ h2 {
   color: #d9d9d9;
 }
 
-.navbar-fixed-top {
-    background-color: rgba(0, 0, 0, 0.2);
+.navbar-fixed-top, .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.2)!important;
     border-bottom: 0;
-
+}
+.open .Jahrgangstufe {
+  background-color: rgba(0, 0, 0, 0.2)!important;
+  border: 0;
 }
 .navbar-fixed-top a {
   color: white!important;
@@ -86,7 +100,7 @@ h2 {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: rgba(255, 255, 255, 0.9);
+        background-color: rgba(255, 255, 255, 0.9)!important;
     }
     .top-nav-collapse a {
       color:#3498DB!important;
