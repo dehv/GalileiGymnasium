@@ -83,6 +83,11 @@
   border: 0;
   border-right:none;
 }
+
+.dropdown-menu {
+    border: 0;    
+}
+
 .navbar-fixed-top a {
   color: white!important;
 }
