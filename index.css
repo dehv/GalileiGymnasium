@@ -37,13 +37,14 @@
   color: white;
 }
 .navbar-default img {
-  max-height: 60px;
+  max-height: 70px;
   min-height: 40px;
-  max-width: 60px;
+  max-width: 70px;
   min-width: 40px;
-
-
+  position: relative;
+  right: 150px;
 }
+
 
 .navbar-collapse {
   text-align: center;
@@ -52,10 +53,11 @@
 .nav {
   display:inline-block;
     float: none;
+    padding-top: 5px;
 }
 .nav li {
   align-content: center;
-  border-right: 1px solid white
+  border-right: 1px solid white!important;
  }
  .nav li:last-child {
    border-right:none;
@@ -83,6 +85,7 @@
   border: 0;
   border-right:none;
 }
+
 .navbar-fixed-top a {
   color: white!important;
 }
@@ -102,10 +105,18 @@
     }
 
     .top-nav-collapse {
-        padding: 0;
+        padding: 5px;
         background-color: rgba(255, 255, 255, 0.9)!important;
     }
     .top-nav-collapse a {
       color:#3498DB!important;
     }
+
+    .top-nav-collapse li {
+      border-right: 1px solid #3498DB!important;
+      -webkit-transition: border-right .5s ease-in-out,padding .5s ease-in-out;
+      -moz-transition: border-right .5s ease-in-out,padding .5s ease-in-out;
+      transition: border-right .5s ease-in-out,padding .5s ease-in-out;
+     }
+
 }
