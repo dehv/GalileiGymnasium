@@ -85,7 +85,7 @@
   border-right: 1px solid white!important;
  }
  .nav li:last-child {
-   border-right:none;
+   border-right:none!important;
  }
 
 .navbar-default .navbar-nav>li>a  {
@@ -103,6 +103,14 @@
 .navbar-fixed-top, .dropdown-menu {
     background-color: rgba(0, 0, 0, 0.2)!important;
     border-bottom: 0;
+
+}
+.dropdown-menu {
+    min-width: 20vh;
+    border-right:none;
+    background-color: rgba(0, 0, 0, 0.2)!important;
+}
+.dropdown-menu>li {
     border-right:none;
 }
 .open .Jahrgangstufe {
@@ -137,6 +145,27 @@
         padding: 5px;
         background-color: rgba(255, 255, 255, 0.9)!important;
     }
+
+    .top-nav-collapse .dropdown-menu {
+        background-color: rgba(255, 255, 255, 0.9)!important;
+        border-bottom: 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+      }
+
+      .top-nav-collapse .open .Jahrgangstufe {
+        background-color: rgba(255, 255, 255, 0.9)!important;
+        border: 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+      }
+
+      .dropdown-menu>li {
+          border-right:none;
+      }
+
     .top-nav-collapse a {
       color:#3498DB!important;
     }
@@ -146,6 +175,10 @@
       -webkit-transition: border-right .5s ease-in-out,padding .5s ease-in-out;
       -moz-transition: border-right .5s ease-in-out,padding .5s ease-in-out;
       transition: border-right .5s ease-in-out,padding .5s ease-in-out;
+     }
+
+     .nav li:last-child {
+       border-right:none!important;
      }
 
 }
