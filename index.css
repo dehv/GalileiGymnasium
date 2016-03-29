@@ -101,20 +101,20 @@
 }
 
 .navbar-fixed-top, .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.2)!important;
+    background-color: rgba(0, 0, 0, 0.4)!important;
     border-bottom: 0;
 
 }
 .dropdown-menu {
     min-width: 20vh;
     border-right:none;
-    background-color: rgba(0, 0, 0, 0.2)!important;
+    background-color: rgba(0, 0, 0, 0.4)!important;
 }
 .dropdown-menu>li {
     border-right:none;
 }
 .open .Jahrgangstufe {
-  background-color: rgba(0, 0, 0, 0.2)!important;
+  background-color: rgba(0, 0, 0, 0.4)!important;
   border: 0;
   border-right:none;
 }
