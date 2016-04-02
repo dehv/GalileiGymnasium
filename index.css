@@ -31,7 +31,7 @@
 .pinned {
     width: 100%;
     height: 50vh;
-    background-color: aquamarine;
+    background-color: #22313F;
 }
 
 .posts {
@@ -42,7 +42,7 @@
 .sidebar {
     float:right;
     padding: 0 0 150% 400px;
-    background-color: red;
+    background-color: #67809F;
 }
 
 .preview-image {
