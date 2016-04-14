@@ -1,0 +1,198 @@
+/*
+Theme Name: galilei
+Theme URI: www.dehv.de
+Author: dehv
+Author URI: http://wordpress.org/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: galli
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background: url(people-woman-coffee-meeting.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text {
+    color: #fbfcfc;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 8em;
+    padding-top: 30vh;
+    padding-left: 5vw;
+}
+
+.gal {
+    font-weight: 400;
+}
+
+.hamm {
+    font-weight: 300;
+}
+
+.pinned {
+    width: 100%;
+    height: 50vh;
+    background-color: #22313F;
+}
+
+.posts {
+    width: 100%;
+    height: 150vh;
+}
+
+.sidebar {
+    float:right;
+    padding: 0 0 150% 400px;
+    background-color: #67809F;
+}
+
+.preview-image {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar-default{
+  font-size: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.navbar-default .navbar-brand{
+  font-size: 3vh;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.navbar-default img {
+  max-height: 70px;
+  min-height: 40px;
+  max-width: 70px;
+  min-width: 40px;
+  position: relative;
+  right: 150px;
+}
+
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.nav {
+  display:inline-block;
+    float: none;
+    padding-top: 5px;
+}
+.nav li {
+  align-content: center;
+  border-right: 1px solid white!important;
+ }
+ .nav li:last-child {
+   border-right:none!important;
+ }
+
+.navbar-default .navbar-nav>li>a  {
+  color: white;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #d9d9d9;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #d9d9d9;
+}
+
+.navbar-fixed-top, .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.4)!important;
+    border-bottom: 0;
+
+}
+.dropdown-menu {
+    min-width: 20vh;
+    border-right:none;
+    background-color: rgba(0, 0, 0, 0.4)!important;
+}
+.dropdown-menu>li {
+    border-right:none;
+}
+.open .Jahrgangstufe {
+  background-color: rgba(0, 0, 0, 0.4)!important;
+  border: 0;
+  border-right:none;
+}
+
+.dropdown-menu {
+    border: 0;
+}
+
+.navbar-fixed-top a {
+  color: white!important;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+
+    }
+    .navbar a {
+      -webkit-transition: color .5s ease-in-out,padding .5s ease-in-out;
+      -moz-transition: color .5s ease-in-out,padding .5s ease-in-out;
+      transition: color .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.9)!important;
+    }
+
+    .top-nav-collapse .dropdown-menu {
+        background-color: rgba(255, 255, 255, 0.9)!important;
+        border-bottom: 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+      }
+
+      .top-nav-collapse .open .Jahrgangstufe {
+        background-color: rgba(255, 255, 255, 0.9)!important;
+        border: 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+      }
+
+      .dropdown-menu>li {
+          border-right:none;
+      }
+
+    .top-nav-collapse a {
+      color:#3498DB!important;
+    }
+
+    .top-nav-collapse li {
+      border-right: 1px solid #3498DB!important;
+      -webkit-transition: border-right .5s ease-in-out,padding .5s ease-in-out;
+      -moz-transition: border-right .5s ease-in-out,padding .5s ease-in-out;
+      transition: border-right .5s ease-in-out,padding .5s ease-in-out;
+     }
+
+     .nav li:last-child {
+       border-right:none!important;
+     }
+
+}
